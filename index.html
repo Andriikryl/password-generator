@@ -8,7 +8,26 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Supper password generator</h1>
+        <h3>password</h3>
+        <form action="">
+            <label for="">Number of characters</label>
+            <input type="range" min="1" max="50" value="10" id="characterRenge">
+            <input type="number" min="1" max="50" value="10" id="characterNumber">
+
+            <label for="includeUppercase">include uppercase</label>
+            <input type="checkbox" id="includeUppercase">
+
+            <label for="includeNumbers">include numbers</label>
+            <input type="checkbox" id="includeNumbers">
+
+            <label for="includeSymbols">include symbols</label>
+            <input type="checkbox" id="includeSymbols">
+
+            <button type="submit">generate</button>
+        </form>
+    </div>
 
 
 

@@ -24,3 +24,23 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  body{
+    background-color: #14213d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+  }
+
+
+
+
+
+
+
+
+
+
