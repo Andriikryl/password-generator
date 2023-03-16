@@ -32,8 +32,80 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
   }
+
+  .container {
+    background-color: #fca311;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-block-end: 20px;
+  }
+
+  label{
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .character-amount-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+.number-input{
+    font-size: 19px;
+    text-align: center;
+}
+
+.password-display {
+    background-color: #e5e5e5;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 27px;
+    margin-block-end: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+}
+
+
+.btn{
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid #14213d;
+    padding: 20px 15px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all .5s ease-in;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: #14213d;
+    color: white;
+}
 
 
 
